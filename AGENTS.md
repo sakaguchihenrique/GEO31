@@ -1,12 +1,22 @@
 # AGENTS.md
 
 ## Project Overview
-- **Project:** Infrastructure Engineering Learning Workspace
-- **Purpose:** Help me learn Infrastructure Engineering topics from Instituto Tecnologico de Aeronautica using PDFs, slides, documents, exercises, notes, diagrams, and review materials.
+- **Project:** Análise Estrutural I Learning Workspace
+- **Purpose:** Help me learn Análise Estrutural I (EDI-31) from Instituto Tecnologico de Aeronautica using PDFs, slides, documents, exercises, notes, diagrams, and review materials.
 - **Target user:** Me, a student using this directory as a personal learning workspace.
 - **My skill level:** Student. Explain ideas clearly and do not assume expert knowledge.
 - **Language:** Use English for project files.
 - **Stack:** This is mainly a learning and documentation project. Use Markdown files unless another format is requested.
+
+## Class Context
+- **Main source:** `materials/Capa.pdf`.
+- **Course:** Análise Estrutural I.
+- **Code:** EDI-31.
+- **Period:** 1st Civil Engineering year, 1st period, 2026.
+- **Professor:** Eliseu Lucena Neto.
+- **Course emphasis:** Focus on the "why" of structural analysis, not only the "how".
+- **Main topics:** Fundamental concepts, Euler-Bernoulli and Timoshenko beam theory, isostatic structures, variational calculus, and the principle of virtual displacements.
+- **Assessment context:** Oral exam, written exam, and laboratory work are important parts of the course.
 
 ## Commands
 - **Install:** No install command yet.
@@ -18,7 +28,14 @@
 ## Study Workflow
 - Use teacher materials, such as PDFs, slides, images, and documents, as the main sources for learning.
 - Read source materials before creating notes or explanations.
-- Create clear notes for Infrastructure Engineering topics.
+- Create clear notes for structural analysis topics.
+- Treat structural analysis as a visual subject. When a source has important figures, diagrams, or structural sketches, describe the visual idea in the notes.
+- Prefer adding diagrams when explaining geometry, supports, reactions, load paths, deformation shapes, internal forces, and structural idealizations.
+- Use simple Mermaid diagrams for flows and relationships.
+- Use clear tables for classifications, such as element types, support types, reactions, and assumptions.
+- When original PDF figures are important, render selected page prints or figure screenshots into `notes/images/` and embed them near the related explanation.
+- When Mermaid is not enough, create or request a separate diagram/image file in `diagrams/`.
+- For visual notes, explain what the figure teaches, not only what it shows.
 - Use simple English and define technical terms.
 - Prefer short sections, examples, and summaries.
 - Add formulas, units, assumptions, and step-by-step reasoning when needed.
